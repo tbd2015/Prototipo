@@ -4,8 +4,12 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-html,
+html {
+    height: 100%;
+}
+
 body {
+    padding-top: 50px;
     height: 100%;
 }
 
@@ -35,3 +39,9 @@ body {
     background-size: cover;
     -o-background-size: cover;
 }
+
+/*
+footer {
+    margin-top: 50px;
+}
+*/

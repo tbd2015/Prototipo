@@ -24,66 +24,68 @@
     <body class="sitio">
         <div id="bp-header"></div>
 
-        <div id="bp-content" class="sitio-contenido margin">
-            <div id="edit-menu">
-                <ul class="nav nav-pills">
-                    <li><a href="#"><i class="fa fa-plus"> Agregar</i></a></li>
-                    <li><a href="#"><i class="fa fa-times"> Eliminar</i></a></li>
-                    <li><a href="#"><i class="fa fa-arrows-alt"> Tamaño</i></a></li>
-                    <li><a href="#"><i class="fa fa-repeat"> Rotar</i></a></li>
-                    <li><a href="#"><i class="fa fa-sort"> Ordenar</i></a></li>
-                </ul>
-            </div>
+        <main class="sitio-contenido">
+            <div id="bp-content">
+                <div id="edit-menu">
+                    <ul class="nav nav-pills">
+                        <li><a href="#"><i class="fa fa-plus"> Agregar</i></a></li>
+                        <li><a href="#"><i class="fa fa-times"> Eliminar</i></a></li>
+                        <li><a href="#"><i class="fa fa-arrows-alt"> Tamaño</i></a></li>
+                        <li><a href="#"><i class="fa fa-repeat"> Rotar</i></a></li>
+                        <li><a href="#"><i class="fa fa-sort"> Ordenar</i></a></li>
+                    </ul>
+                </div>
 
-            <div class="container-fluid">
-                <div class="row">
-                    </br>
-                    <div id="image-sidebar" class="col-md-3">
-                        <form>
-                          <div class="form-group">
-                            <label for="nombre">Nombre de la Imagen</label>
-                            <input class="form-control" placeholder="<sin nombre>">
-                          </div>
-                          <div class="form-group">
-                            <label for="tags">Añadir Etiquetas</label>
-                            <input class="form-control" placeholder="<sin etiquetas>">
-                          </div>
-                          <div class="form-group">
-                            <label for="personas">Añadir Personas</label>
-                            <input class="form-control" placeholder="<sin personas>">
-                          </div>
-                          <div class="form-group">
-                            <label for="albumes">Añadir a Álbumes</label>
-                            <input class="form-control" placeholder="<sin álbumes>">
-                          </div>
-                          <div class="form-group">
-                            <label for="dueno">Ajustes del Dueño</label>
-                             <select class="form-control" name="Licencia de la Imagen">
-                              <option value="copyright">Todos los derechos reservados</option>
-                              <option value="cc">Creative Commons</option>
-                              <option value="free">Uso liberado</option>
-                            </select> 
-                          </div>
-                          <button type="submit" class="btn btn-default">Subir Imagen</button>
-                        </form>
+                <div class="container-fluid">
+                    <div class="row">
                         </br>
-                    </div>
-                    </br>
-                    <div id="image-list" class="col-md-7">
-                        <div class="row">
-                            <div class="col-md-3 col-sm-4 col-xs-6"><img class="img-responsive img-list" src="images/gallery/gal01.jpg" /></div>
-                            <div class="col-md-3 col-sm-4 col-xs-6"><img class="img-responsive img-list" src="images/gallery/gal02.jpg" /></div>
-                            <div class="col-md-3 col-sm-4 col-xs-6"><img class="img-responsive img-list" src="images/gallery/gal03.jpg" /></div>
-                            <div class="col-md-3 col-sm-4 col-xs-6"><img class="img-responsive img-list" src="images/gallery/gal04.jpg" /></div>
-                            <div class="col-md-3 col-sm-4 col-xs-6"><img class="img-responsive img-list" src="images/gallery/gal05.jpg" /></div>
-                            <div class="col-md-3 col-sm-4 col-xs-6"><img class="img-responsive img-list" src="images/gallery/gal06.jpg" /></div>
-                            <div class="col-md-3 col-sm-4 col-xs-6"><img class="img-responsive img-list" src="images/gallery/gal07.jpg" /></div>
-                            <div class="col-md-3 col-sm-4 col-xs-6"><img class="img-responsive img-list" src="images/gallery/gal08.jpg" /></div>
+                        <div id="image-sidebar" class="col-md-3">
+                            <form>
+                              <div class="form-group">
+                                <label for="nombre">Nombre de la Imagen</label>
+                                <input class="form-control" placeholder="<sin nombre>">
+                              </div>
+                              <div class="form-group">
+                                <label for="tags">Añadir Etiquetas</label>
+                                <input class="form-control" placeholder="<sin etiquetas>">
+                              </div>
+                              <div class="form-group">
+                                <label for="personas">Añadir Personas</label>
+                                <input class="form-control" placeholder="<sin personas>">
+                              </div>
+                              <div class="form-group">
+                                <label for="albumes">Añadir a Álbumes</label>
+                                <input class="form-control" placeholder="<sin álbumes>">
+                              </div>
+                              <div class="form-group">
+                                <label for="dueno">Ajustes del Dueño</label>
+                                 <select class="form-control" name="Licencia de la Imagen">
+                                  <option value="copyright">Todos los derechos reservados</option>
+                                  <option value="cc">Creative Commons</option>
+                                  <option value="free">Uso liberado</option>
+                                </select> 
+                              </div>
+                              <button type="submit" class="btn btn-default">Subir Imagen</button>
+                            </form>
+                            </br>
+                        </div>
+                        </br>
+                        <div id="image-list" class="col-md-7">
+                            <div class="row">
+                                <div class="col-md-3 col-sm-4 col-xs-6"><img class="img-responsive img-list" src="images/gallery/gal01.jpg" /></div>
+                                <div class="col-md-3 col-sm-4 col-xs-6"><img class="img-responsive img-list" src="images/gallery/gal02.jpg" /></div>
+                                <div class="col-md-3 col-sm-4 col-xs-6"><img class="img-responsive img-list" src="images/gallery/gal03.jpg" /></div>
+                                <div class="col-md-3 col-sm-4 col-xs-6"><img class="img-responsive img-list" src="images/gallery/gal04.jpg" /></div>
+                                <div class="col-md-3 col-sm-4 col-xs-6"><img class="img-responsive img-list" src="images/gallery/gal05.jpg" /></div>
+                                <div class="col-md-3 col-sm-4 col-xs-6"><img class="img-responsive img-list" src="images/gallery/gal06.jpg" /></div>
+                                <div class="col-md-3 col-sm-4 col-xs-6"><img class="img-responsive img-list" src="images/gallery/gal07.jpg" /></div>
+                                <div class="col-md-3 col-sm-4 col-xs-6"><img class="img-responsive img-list" src="images/gallery/gal08.jpg" /></div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </main>
 
         <div id="bp-footer"></div>
 
