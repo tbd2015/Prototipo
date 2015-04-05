@@ -42,8 +42,13 @@
 }
 @media (min-width: 992px) {
     .profile-pic img {
-        width:180px;
+        width:150px;
     }
+}
+
+/* Álbum */
+.album {
+    margin-bottom: 2px;
 }
 
 /* Camera Roll */
