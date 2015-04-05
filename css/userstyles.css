@@ -1,7 +1,55 @@
+/* Perfil de Usuario */
+.profile-header {
+    background: url('../images/users/wall/user001.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 150px;
+    padding-bottom: 20px;
+    vertical-align: bottom;
+    height: 300px;
+    width: 100%;
+}
+.profile-header h2,
+.profile-header h4,
+.profile-header p {
+    color:#fff !important;
+    text-shadow: 1px 1px 1px #000;
+}
+.profile-header-content {
+  display: table;
+
+}
+.profile-pic {
+  float: none;
+  display: table-cell;
+}
+.profile-pic img {
+    width:150px;
+}
+.profile-about {
+  float: none;
+  display: table-cell;
+  vertical-align: bottom;
+  margin-bottom:20px;
+}
+
+@media (min-width: 768px) {
+    .profile-pic {
+        width:150px;
+    }   
+}
+@media (min-width: 992px) {
+    .profile-pic img {
+        width:200px;
+    }
+}
+
 /* Camera Roll */
 .tree {
     min-height:20px;
-    padding:19px;
+    padding:10px;
     margin-bottom:20px;
     background-color:#fbfbfb;
     border:1px solid #999;
