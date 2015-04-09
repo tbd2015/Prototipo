@@ -14,8 +14,8 @@
 .profile-header h2,
 .profile-header h4,
 .profile-header p {
-    color:#fff !important;
-    text-shadow: 1px 1px 1px #000;
+    color: #fff !important;
+    text-shadow: 2px 2px 2px #000;
 }
 .profile-header-content {
   display: table;
