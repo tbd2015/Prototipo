@@ -475,3 +475,12 @@ body {
 .avatar-thumbnail {
     height: 43px;
 }
+
+.camera-show {
+    max-height: 200px;
+    margin: 0 auto;
+}
+
+.center-div {
+    margin: 0 auto;
+}
