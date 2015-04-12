@@ -484,3 +484,7 @@ body {
 .center-div {
     margin: 0 auto;
 }
+
+.img-home {
+    width: 95%;
+}
